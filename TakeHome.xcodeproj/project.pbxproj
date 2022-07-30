@@ -23,6 +23,15 @@
 		4A048E1628951BFC00D89A5C /* ImbalDomainTypeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E1528951BFC00D89A5C /* ImbalDomainTypeRepository.swift */; };
 		4A048E1828951E9300D89A5C /* ImbalHasilViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E1728951E9300D89A5C /* ImbalHasilViewModel.swift */; };
 		4A048E1A2895220E00D89A5C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E192895220E00D89A5C /* BaseViewController.swift */; };
+		4A048E1F2895492E00D89A5C /* ImbalChartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E1E2895492E00D89A5C /* ImbalChartResponse.swift */; };
+		4A048E2228954A1400D89A5C /* ImbalChartDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E2128954A1400D89A5C /* ImbalChartDataEntity.swift */; };
+		4A048E2428954B0000D89A5C /* ChartDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E2328954B0000D89A5C /* ChartDataEntity.swift */; };
+		4A048E2628954B9C00D89A5C /* ChartsDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E2528954B9C00D89A5C /* ChartsDataEntity.swift */; };
+		4A048E2828954DC500D89A5C /* FetchImbalChartUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E2728954DC500D89A5C /* FetchImbalChartUseCase.swift */; };
+		4A048E322895684400D89A5C /* PerbandinganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E312895684400D89A5C /* PerbandinganViewController.swift */; };
+		4A048E382895687900D89A5C /* PerbandinganView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E372895687900D89A5C /* PerbandinganView.swift */; };
+		4A048E3B28956BB700D89A5C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A048E3A28956BB700D89A5C /* back.png */; };
+		4A048E3D28956EAB00D89A5C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A048E3C28956EAB00D89A5C /* Constants.swift */; };
 		4ABC6FBD2893882C00B7F447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC6FBC2893882C00B7F447 /* AppDelegate.swift */; };
 		4ABC6FC42893882C00B7F447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6FC22893882C00B7F447 /* Main.storyboard */; };
 		4ABC6FC62893882E00B7F447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC6FC52893882E00B7F447 /* Assets.xcassets */; };
@@ -83,6 +92,15 @@
 		4A048E1528951BFC00D89A5C /* ImbalDomainTypeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImbalDomainTypeRepository.swift; sourceTree = "<group>"; };
 		4A048E1728951E9300D89A5C /* ImbalHasilViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImbalHasilViewModel.swift; sourceTree = "<group>"; };
 		4A048E192895220E00D89A5C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4A048E1E2895492E00D89A5C /* ImbalChartResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImbalChartResponse.swift; sourceTree = "<group>"; };
+		4A048E2128954A1400D89A5C /* ImbalChartDataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImbalChartDataEntity.swift; sourceTree = "<group>"; };
+		4A048E2328954B0000D89A5C /* ChartDataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataEntity.swift; sourceTree = "<group>"; };
+		4A048E2528954B9C00D89A5C /* ChartsDataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDataEntity.swift; sourceTree = "<group>"; };
+		4A048E2728954DC500D89A5C /* FetchImbalChartUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImbalChartUseCase.swift; sourceTree = "<group>"; };
+		4A048E312895684400D89A5C /* PerbandinganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerbandinganViewController.swift; sourceTree = "<group>"; };
+		4A048E372895687900D89A5C /* PerbandinganView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerbandinganView.swift; sourceTree = "<group>"; };
+		4A048E3A28956BB700D89A5C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4A048E3C28956EAB00D89A5C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4ABC6FB92893882C00B7F447 /* TakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABC6FBC2893882C00B7F447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ABC6FC32893882C00B7F447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -262,6 +280,7 @@
 			children = (
 				4A048E1028951B3200D89A5C /* ImbalTypeUseCase.swift */,
 				4A048E1228951B6D00D89A5C /* FetchImbalDataDetailUseCase.swift */,
+				4A048E2728954DC500D89A5C /* FetchImbalChartUseCase.swift */,
 			);
 			path = ImbalType;
 			sourceTree = "<group>";
@@ -272,6 +291,74 @@
 				4A048E1528951BFC00D89A5C /* ImbalDomainTypeRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		4A048E20289549FB00D89A5C /* ImbalChart */ = {
+			isa = PBXGroup;
+			children = (
+				4A048E2128954A1400D89A5C /* ImbalChartDataEntity.swift */,
+				4A048E2328954B0000D89A5C /* ChartDataEntity.swift */,
+				4A048E2528954B9C00D89A5C /* ChartsDataEntity.swift */,
+			);
+			path = ImbalChart;
+			sourceTree = "<group>";
+		};
+		4A048E2F2895681800D89A5C /* Perbandingan */ = {
+			isa = PBXGroup;
+			children = (
+				4A048E352895686300D89A5C /* Dana */,
+				4A048E302895683000D89A5C /* Imbal */,
+				4A048E312895684400D89A5C /* PerbandinganViewController.swift */,
+			);
+			path = Perbandingan;
+			sourceTree = "<group>";
+		};
+		4A048E302895683000D89A5C /* Imbal */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC70172893E28700B7F447 /* ImbalHasilViewController.swift */,
+				4A048E1728951E9300D89A5C /* ImbalHasilViewModel.swift */,
+			);
+			path = Imbal;
+			sourceTree = "<group>";
+		};
+		4A048E332895685500D89A5C /* Perbandingan */ = {
+			isa = PBXGroup;
+			children = (
+				4A048E362895686E00D89A5C /* Dana */,
+				4A048E342895685D00D89A5C /* Imbal */,
+				4A048E372895687900D89A5C /* PerbandinganView.swift */,
+			);
+			path = Perbandingan;
+			sourceTree = "<group>";
+		};
+		4A048E342895685D00D89A5C /* Imbal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Imbal;
+			sourceTree = "<group>";
+		};
+		4A048E352895686300D89A5C /* Dana */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dana;
+			sourceTree = "<group>";
+		};
+		4A048E362895686E00D89A5C /* Dana */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dana;
+			sourceTree = "<group>";
+		};
+		4A048E3928956BA200D89A5C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4A048E3A28956BB700D89A5C /* back.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		4ABC6FB02893882C00B7F447 = {
@@ -300,8 +387,8 @@
 			isa = PBXGroup;
 			children = (
 				4ABC6FEC28938D4D00B7F447 /* Application */,
-				4A048DE82895033100D89A5C /* Infrastructure */,
 				4ABC700B289398EA00B7F447 /* App-Module */,
+				4A048DE82895033100D89A5C /* Infrastructure */,
 				4ABC6FF72893914900B7F447 /* Data */,
 				4ABC6FF02893901600B7F447 /* Domain */,
 				4ABC70012893954E00B7F447 /* Resources */,
@@ -372,6 +459,7 @@
 		4ABC6FF42893909700B7F447 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				4A048E20289549FB00D89A5C /* ImbalChart */,
 				4A048DF728950D6E00D89A5C /* ImbalData */,
 			);
 			path = Entities;
@@ -402,6 +490,7 @@
 				4ABC6FF5289390B100B7F447 /* Response.swift */,
 				4ABC6FFA2893916200B7F447 /* ErrorResponse.swift */,
 				4A048DF528950C6000D89A5C /* ImbalDataResponse.swift */,
+				4A048E1E2895492E00D89A5C /* ImbalChartResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -420,7 +509,9 @@
 		4ABC70012893954E00B7F447 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4A048E3928956BA200D89A5C /* Image */,
 				4ABC70022893955F00B7F447 /* Other-View */,
+				4A048E3C28956EAB00D89A5C /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -453,6 +544,7 @@
 		4ABC700D2893996C00B7F447 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4A048E332895685500D89A5C /* Perbandingan */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -460,8 +552,7 @@
 		4ABC700E2893997B00B7F447 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4ABC70172893E28700B7F447 /* ImbalHasilViewController.swift */,
-				4A048E1728951E9300D89A5C /* ImbalHasilViewModel.swift */,
+				4A048E2F2895681800D89A5C /* Perbandingan */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -575,6 +666,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A048E3B28956BB700D89A5C /* back.png in Resources */,
 				4ABC6FC92893882E00B7F447 /* LaunchScreen.storyboard in Resources */,
 				4ABC6FC62893882E00B7F447 /* Assets.xcassets in Resources */,
 				4ABC6FC42893882C00B7F447 /* Main.storyboard in Resources */,
@@ -707,24 +799,32 @@
 			files = (
 				4ABC6FF22893904B00B7F447 /* UseCase.swift in Sources */,
 				4A048DF2289506F000D89A5C /* BaseNetwork.swift in Sources */,
+				4A048E322895684400D89A5C /* PerbandinganViewController.swift in Sources */,
 				4A048DEE289503C300D89A5C /* Environment.swift in Sources */,
 				4ABC70142893DC5300B7F447 /* UIColor.swift in Sources */,
+				4A048E382895687900D89A5C /* PerbandinganView.swift in Sources */,
 				4A048E052895136100D89A5C /* ImbalRepositoryIMP.swift in Sources */,
 				4A048E1A2895220E00D89A5C /* BaseViewController.swift in Sources */,
 				4A048DF02895057600D89A5C /* API.swift in Sources */,
 				4ABC6FBD2893882C00B7F447 /* AppDelegate.swift in Sources */,
 				4ABC701A2893E3B700B7F447 /* SceneDelegate.swift in Sources */,
+				4A048E3D28956EAB00D89A5C /* Constants.swift in Sources */,
 				4ABC70042893956D00B7F447 /* Loader.swift in Sources */,
 				4ABC6FF6289390B100B7F447 /* Response.swift in Sources */,
 				4ABC6FFD289391BF00B7F447 /* BaseViewModel.swift in Sources */,
 				4A048DFB28950E3000D89A5C /* DetailImbalEntity.swift in Sources */,
+				4A048E2628954B9C00D89A5C /* ChartsDataEntity.swift in Sources */,
+				4A048E2428954B0000D89A5C /* ChartDataEntity.swift in Sources */,
 				4ABC700A2893985D00B7F447 /* CodableExtension.swift in Sources */,
+				4A048E2828954DC500D89A5C /* FetchImbalChartUseCase.swift in Sources */,
 				4A048E1828951E9300D89A5C /* ImbalHasilViewModel.swift in Sources */,
 				4ABC70002893951E00B7F447 /* UIView.swift in Sources */,
 				4A048E0E289519A100D89A5C /* ImbalDataTypeService.swift in Sources */,
 				4A048E1128951B3200D89A5C /* ImbalTypeUseCase.swift in Sources */,
 				4A048DF928950D9000D89A5C /* ImbalHasilEntity.swift in Sources */,
+				4A048E2228954A1400D89A5C /* ImbalChartDataEntity.swift in Sources */,
 				4ABC7006289397A100B7F447 /* UIViewControllerExtension.swift in Sources */,
+				4A048E1F2895492E00D89A5C /* ImbalChartResponse.swift in Sources */,
 				4A048E1628951BFC00D89A5C /* ImbalDomainTypeRepository.swift in Sources */,
 				4A048E0B289517AB00D89A5C /* EndPoints.swift in Sources */,
 				4ABC70182893E28700B7F447 /* ImbalHasilViewController.swift in Sources */,
@@ -908,8 +1008,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQLCV9BYQG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TakeHome/Info.plist;
 				INFOPLIST_KEY_NSMainNibFile = Main;
@@ -926,6 +1028,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bareksa.techinaltest.TakeHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -938,8 +1041,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JQLCV9BYQG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TakeHome/Info.plist;
 				INFOPLIST_KEY_NSMainNibFile = Main;
@@ -956,6 +1061,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bareksa.techinaltest.TakeHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

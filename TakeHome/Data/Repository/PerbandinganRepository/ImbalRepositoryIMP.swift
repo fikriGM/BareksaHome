@@ -18,11 +18,16 @@ final class ImbalRepositoryIMP {
 }
 
 extension ImbalRepositoryIMP: ImbalDomainTypeRepository {
+  
+    //MARK: GET DATA DETAIL
     func getDataDetailImbalDomain(completion: @escaping (Response?, ErrorResponse?) -> Void) {
         remoteImbalDataSource.getImbalData(completion: completion)
     }
     
-    
+    //MARK: GET DATA CHART
+    func getChartImbalDomain(completion: @escaping (Response?, ErrorResponse?) -> Void) {
+        remoteImbalDataSource.getImbalChartData(completion: completion)
+    }
     
     
 }

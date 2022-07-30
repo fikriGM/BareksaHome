@@ -10,4 +10,6 @@ import Foundation
 protocol ImbalDomainTypeRepository {
     
     func getDataDetailImbalDomain(completion: @escaping (_ result: Response?, _ error: ErrorResponse?) -> Void)
+    
+    func getChartImbalDomain(completion: @escaping(_ result: Response?, _ error: ErrorResponse?) -> Void)
 }

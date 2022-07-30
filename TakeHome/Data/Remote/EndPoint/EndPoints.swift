@@ -15,9 +15,11 @@ struct EndPoints {
     /// also will help to separate the endpoints by its controller/feature
     struct ImbalTypes {
         
-        static let endPointFolder = "/detail"
+        static let endPointDetail = "/detail"
+        static let endPointChart = "/chart"
         
-        static var dataDetail: String { get { return "\(endPointApp)\(endPointFolder)"} }
+        static var dataDetail: String { get { return "\(endPointApp)\(endPointDetail)" } }
+        static var dataChart: String { get { return "\(endPointApp)\(endPointChart)" } }
     }
 }
 

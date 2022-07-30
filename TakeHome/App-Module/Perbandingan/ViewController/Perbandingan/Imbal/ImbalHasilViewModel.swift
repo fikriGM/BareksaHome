@@ -11,6 +11,7 @@ import Combine
 class ImbalHasilViewModel: BaseViewModel {
     
     var apiResponse: ImbalDataResponse?
+    var apiChartResponse: ImbalChartResponse?
     
     init() {
         
@@ -18,6 +19,8 @@ class ImbalHasilViewModel: BaseViewModel {
         
         let imbalTypeUseCase = ImbalTypeUseCase()
         imbalTypeUseCase.fetchImbalDataDetail = FetchImbalDataDetailUseCase(repository: repository)
+        imbalTypeUseCase.fetchImbalChart = FetchImbalChartUseCase(repository: repository)
+        
         super.init(useCase: imbalTypeUseCase)
     }
     
@@ -34,7 +37,20 @@ class ImbalHasilViewModel: BaseViewModel {
         return viewModelUsesCase.fetchImbalDataDetail?.start()
     }
     
+    @available(iOS 13.0, *)
+    func fetchDataChart() -> Future<Response?, ErrorResponse>? {
+        let viewModelChartUseCase = self.useCase as! ImbalTypeUseCase
+        self.isLoading = true
+        self.showError = false
+        
+        return viewModelChartUseCase.fetchImbalChart?.start()
+    }
+    
     func handleResponse(response: ImbalDataResponse) {
         debugPrint("Response :> \(response.code)")
+    }
+    
+    func handleChartResponse(chartResponse: ImbalChartResponse) {
+        debugPrint("Response Chart :> \(chartResponse)")
     }
 }

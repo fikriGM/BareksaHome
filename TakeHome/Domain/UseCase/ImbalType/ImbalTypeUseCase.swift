@@ -10,4 +10,5 @@ import Foundation
 class ImbalTypeUseCase: UseCase {
     
     var fetchImbalDataDetail: FetchImbalDataDetailUseCase?
+    var fetchImbalChart: FetchImbalChartUseCase?
 }

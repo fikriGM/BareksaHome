@@ -27,6 +27,7 @@ class BaseNetworking {
             
             AF.request(url!, method: endPoint.method, encoding: endPoint.bodyEncoding).validate().responseDecodable(of: T.self) {
                 (response) in
+                debugPrint(response)
                 switch response.result {
                 case .success(_):
                     guard let response = response.value else {

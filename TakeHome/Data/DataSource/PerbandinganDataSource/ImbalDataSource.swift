@@ -14,4 +14,5 @@ protocol ImbalDataSource {
     func getImbalData(completion: @escaping(_ result: ImbalDataResponse? , _ error: ErrorResponse?) -> Void)
     
     //Get Chart Imbal
+    func getImbalChartData(completion: @escaping(_ result: ImbalChartResponse?, _ error: ErrorResponse?) -> Void)
 }
