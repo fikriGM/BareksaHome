@@ -8,7 +8,7 @@
 import Foundation
 
 struct ChartDataEntity: Codable {
-    var data: [ChartsDataEntity]?
+    var data: [ChartsDataEntity]
     var error: String
     
     init(data: [ChartsDataEntity], error: String) {

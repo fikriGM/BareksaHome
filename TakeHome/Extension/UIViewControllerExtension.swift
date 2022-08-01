@@ -33,11 +33,11 @@ extension UIViewController {
         if #available(iOS 13, *){
             let statusBarHeight: CGFloat = {
                 var heightToReturn: CGFloat = 0.0
-                     for window in UIApplication.shared.windows {
-                         if let height = window.windowScene?.statusBarManager?.statusBarFrame.height, height > heightToReturn {
-                             heightToReturn = height
-                         }
-                     }
+                for window in UIApplication.shared.windows {
+                    if let height = window.windowScene?.statusBarManager?.statusBarFrame.height, height > heightToReturn {
+                        heightToReturn = height
+                    }
+                }
                 return heightToReturn
             }()
             return statusBarHeight
@@ -45,6 +45,31 @@ extension UIViewController {
         else {
             return UIApplication.shared.statusBarFrame.size.height
         }
+    }
+    
+    func showToast(message : String, font: UIFont) {
+        let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 75, y: self.view.frame.size.height-300, width: 150, height: 35))
+        toastLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        toastLabel.textColor = UIColor.white
+        toastLabel.font = font
+        toastLabel.textAlignment = .center;
+        toastLabel.text = message
+        toastLabel.alpha = 1.0
+        toastLabel.layer.cornerRadius = 10;
+        toastLabel.clipsToBounds  =  true
+        self.view.addSubview(toastLabel)
+        UIView.animate(withDuration: 4.0, delay: 0.1, options: .curveEaseOut, animations: {
+            toastLabel.alpha = 0.0
+        }, completion: {(isCompleted) in
+            toastLabel.removeFromSuperview()
+        })
+    }
+    
+    func display(contentController content: UIViewController, on view: UIView) {
+        content.willMove(toParent: self)
+        view.addSubview(content.view)
+        self.addChild(content)
+        content.didMove(toParent: self)
     }
     
 }

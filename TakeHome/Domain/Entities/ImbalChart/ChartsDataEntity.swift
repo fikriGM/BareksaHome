@@ -9,10 +9,10 @@ import Foundation
 
 struct ChartsDataEntity: Codable {
     var date: String
-    var value: Float
+    var value: Double
     var growth: Double?
     
-    init(date: String, value: Float, growth: Double) {
+    init(date: String, value: Double, growth: Double) {
         self.date = date
         self.value = value
         self.growth = growth

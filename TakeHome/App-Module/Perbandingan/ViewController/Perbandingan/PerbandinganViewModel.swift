@@ -1,14 +1,14 @@
 //
-//  ImbalHasilViewModel.swift
+//  PerbandinganViewModel.swift
 //  TakeHome
 //
-//  Created by Cashlez Macbook 2021 on 7/30/22.
+//  Created by Cashlez Macbook 2021 on 7/31/22.
 //
 
 import Foundation
 import Combine
 
-class ImbalHasilViewModel: BaseViewModel {
+class PerbandinganViewModel: BaseViewModel {
     
     var apiResponse: ImbalDataResponse?
     var apiChartResponse: ImbalChartResponse?
@@ -46,11 +46,15 @@ class ImbalHasilViewModel: BaseViewModel {
         return viewModelChartUseCase.fetchImbalChart?.start()
     }
     
-    func handleResponse(response: ImbalDataResponse) {
-        debugPrint("Response :> \(response.code)")
+    var currentCount: Int {
+        get {
+            self.apiResponse?.data.count ?? 0
+        }
     }
     
-    func handleChartResponse(chartResponse: ImbalChartResponse) {
-        debugPrint("Response Chart :> \(chartResponse)")
+    func handleResponse(response: ImbalDataResponse) {
+        self.apiResponse = response
+        debugPrint("Response :> \(response)")
     }
+    
 }
